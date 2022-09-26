@@ -3,7 +3,7 @@ package course.lesson2;
 import java.util.Arrays;
 
 public class Array {
-    private static int[] arr3;
+
 
     public static void main(String[] args) {
         changeArray();
