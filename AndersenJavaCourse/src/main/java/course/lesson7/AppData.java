@@ -31,8 +31,6 @@ public class AppData {
         writer.write(builder.toString());
         writer.close();
 
-
-
         }
 
     public void readFile() {
@@ -48,7 +46,6 @@ public class AppData {
             e.printStackTrace();
         }
     }
-
 
 }
 
