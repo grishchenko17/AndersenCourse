@@ -27,10 +27,11 @@ public class AppData {
                 }
                 builder.append("\n");
             }
+        BufferedWriter writer = new BufferedWriter(new FileWriter("createTest.csv"));
+        writer.write(builder.toString());
+        writer.close();
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter("createFile.csv"));
-            writer.write(builder.toString());
-            writer.close();
+
 
         }
 
@@ -47,6 +48,8 @@ public class AppData {
             e.printStackTrace();
         }
     }
+
+
 }
 
 
