@@ -37,22 +37,16 @@ public class AppData {
     public void readFile() {
         String sample = ";";
         String mystring;
-        try
-        {
+        try {
             BufferedReader br = new BufferedReader(new FileReader("/Users/maryiahryshchanka/Documents/readingFile.csv"));
-            while ((mystring = br.readLine()) != null)
-            {
+            while ((mystring = br.readLine()) != null) {
                 String[] employee = mystring.split(sample);
                 System.out.println("ID: " + employee[0] + ", Name: " + employee[1] + ", LastName: " + employee[2] + ", Phone: " + employee[3]);
             }
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-
 }
 
 
