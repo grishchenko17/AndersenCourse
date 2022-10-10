@@ -73,8 +73,6 @@ public class Array {
             }
 
             }
-
-
             public static void printArray(int len, int initialValue) {
         int[] arr2= new int[len];
         for (int i = 0; i< len; i++) {
@@ -86,13 +84,6 @@ public class Array {
                 System.out.println();
             }
 
-//            public static void shiftArray (int n) {
-//            int[] arr3 = {1,2,3,4,5,6,7};
-//                System.out.println(Arrays.toString(arr3));
-//            for (int i = 0; i < arr3.length-1; i++) {
-//                    arr3[i] =arr3[i+n];
-//                System.out.println(Arrays.toString(arr3));
-//                }
 
 
 
